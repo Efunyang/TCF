@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "echo-frontend",
+            "program": "lib/main.dart",
+            "request": "launch",
+            "type": "dart",
+            "toolArgs": [
+                "--dart-define=useFakeRepos=true",
+            ]
+        }
+    ]
+}
